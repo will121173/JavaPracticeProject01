@@ -2,16 +2,13 @@ package SampleCapsule;
 // ---------------------------------
 //  カプセル化のサンプルのファイルです。
 // ---------------------------------
-import java.util.Date;
 
-public class Ticket {
+public class TicketSample_capsule {
     // 自由に使えるようにすべてpublicで定義していたとします
-    public Date boardingDate;          // 乗車日
     public String boardingStation;     // 乗車駅
     public String gettingOffStation;   // 降車駅
     public int price;                  // 金額
-    Ticket(Date boardingDate, String boardingStation, String gettingOffStation){
-        this.boardingDate = boardingDate;
+    TicketSample_capsule(String boardingStation, String gettingOffStation){
         this.boardingStation = boardingStation;
         this.gettingOffStation = gettingOffStation;
         this.price = getPriceFromPriceTable(boardingStation, gettingOffStation);

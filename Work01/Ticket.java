@@ -1,5 +1,7 @@
 package Work01;
-
+// ----------------------
+// 乗車券と急行券の親クラス
+// ----------------------
 import java.util.Date;
 
 public class Ticket {
@@ -13,6 +15,9 @@ public class Ticket {
     }
     public int getPrice(){ // 金額問合せ
         return this.price;
+    }
+    private int getNormalPriceFromTable(String a,String b){
+        return Work01DBMock.getPriceFromNormalPriceTable(a, b);
     }
 }
 
