@@ -14,10 +14,7 @@ public class Ticket {
     Ticket(){ // 作成
     }
     public int getPrice(){ // 金額問合せ
-        return this.price;
-    }
-    private int getNormalPriceFromTable(String a,String b){
-        return Work01DBMock.getPriceFromNormalPriceTable(a, b);
+        return 0;
     }
 }
 

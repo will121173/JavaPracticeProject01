@@ -7,7 +7,7 @@ public class SampleCapsuleMain {
     public static void main(String[] args) {
         
     // 1-1. 切符を生成から利用までするクラスがあって、切符インスタンスを生成したとします。
-    TicketSample_capsule ticket = new TicketSample_capsule(new Date(), "St.A", "St.B");
+    TicketSample_capsule ticket = new TicketSample_capsule("St.A", "St.B");
     
     // ~~~~~~~~~~~~~~~~~~~~~この間にも色々コードがあるとする~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  //
 
