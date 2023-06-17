@@ -52,7 +52,7 @@ public class Work01Main {
         // ■■■■■■■■■■■■
         // クラス図の乗車券面編集・発券に当たります
         // 印刷機構とその発券メソッドはPrintingMechanism.javaに実装済みです
-        // 要：ExpressTicketクラス
+        // 要：ExpressTicketクラス (NormalTicketクラスに追加で金額判定に用いる「列車(文字列)」フィールドを持つ)
         // 例：
         // ExpressTicket et = new ExpressTicket(引数);
         // xxx.yyyy(zzz);  //ここで、適切にメソッドを呼び出す  ※標準出力に上記例と同等の出力
