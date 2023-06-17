@@ -43,13 +43,19 @@ public class Work01Main {
         System.out.println("Work01-03 start");
         // ★ Work01-03 カプセル化・アクセス修飾子
         // 現在の特急券に関して、下記のように券の情報をコンソールに出力してください
-        // （クラス図の乗車券面編集・発券）
-        
+        // ■■■■急行券■■■■
+        // 2023/X/X      　　　　※ここは当日の日付
+        // のぞみ
+        // 名古屋 >> 東京
+        // 2名
+        // 4000円
+        // ■■■■■■■■■■■■
+        // クラス図の乗車券面編集・発券に当たります
+        // 印刷機構とその発券メソッドはPrintingMechanism.javaに実装済みです
         // 要：ExpressTicketクラス
         // 例：
         // ExpressTicket et = new ExpressTicket(引数);
-        // price = et.getTicketPrice()
-        // System.out.println(price);  // 確認の出力　(Work1の続きで、2000と出力)
+        // xxx.yyyy(zzz);  //ここで、適切にメソッドを呼び出す  ※標準出力に上記例と同等の出力
         System.out.println("Work01-03 end");
         
 

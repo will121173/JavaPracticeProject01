@@ -10,7 +10,8 @@ public class PrintingMechanism {
         // ticketText : 乗車駅などの情報、改行コード\nを適宜入れること、最終行に改行は不要
         System.out.print("■■■■");
         System.out.print(ticketTitle);
-        System.out.print("■■■■\n");
+        System.out.println("■■■■");
         System.out.println(ticketText);
+        System.out.println("■■■■■■■■■■■■");
     }
 }
