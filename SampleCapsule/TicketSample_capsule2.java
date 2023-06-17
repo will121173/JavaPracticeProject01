@@ -1,8 +1,8 @@
 package SampleCapsule;
-// ---------------------------------
-//  カプセル化のサンプルのファイルです。
-// ---------------------------------
-import java.util.Date;
+// -----------------------------------------
+//  カプセル化のサンプルクラスです
+//  Work01のチケットとは似た別物です
+// -----------------------------------------
 
 public class TicketSample_capsule2 {
     String boardingStation;     // 乗車駅
@@ -13,7 +13,7 @@ public class TicketSample_capsule2 {
         return price;
     }
     
-    TicketSample_capsule2(Date boardingDate, String boardingStation, String gettingOffStation){
+    TicketSample_capsule2(String boardingStation, String gettingOffStation){
         this.boardingStation = boardingStation;
         this.gettingOffStation = gettingOffStation;
         this.price = getPriceFromPriceTable(boardingStation, gettingOffStation);

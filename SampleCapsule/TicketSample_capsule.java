@@ -1,7 +1,8 @@
 package SampleCapsule;
-// ---------------------------------
-//  カプセル化のサンプルのファイルです。
-// ---------------------------------
+// -----------------------------------------
+//  カプセル化が適切でない例のサンプルクラスです
+//  Work01のチケットとは似た別物です
+// -----------------------------------------
 
 public class TicketSample_capsule {
     // 自由に使えるようにすべてpublicで定義していたとします
@@ -15,6 +16,8 @@ public class TicketSample_capsule {
     }
 
     public int getPriceFromPriceTable(String from, String to){ //発着駅を元に料金表から料金を求める処理のモック
+        if(to == "St.C") return 2000;
+        if(to == "St.D") return 3000;
         return 1000;
     }
 }
